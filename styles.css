@@ -24,13 +24,12 @@
 }
 
 .user-text {
-    text-align: center;
     width: 700px;
     min-height: 200px;
     max-height: fit-content;
     border: solid 1px;
     text-rendering: auto;
-    /* margin-top: 10px; */
+    font-size: 23px;
 }
 
 .translate-btn {
@@ -56,9 +55,24 @@
 }
 
 .output {
-    padding: 2rem;
-    margin: auto;
-    font-size: medium;
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.invalid {
+    color: red;
+}
+
+.play-more {
+    font-weight: 23px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.play-more a {
+    text-decoration: none;
+    color: #f1c40f;
 }
 
 footer {
@@ -70,4 +84,9 @@ footer {
     margin: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
 }
